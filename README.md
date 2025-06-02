@@ -55,6 +55,4 @@ SpeakSafe/
 
 
 
-## 🎉 Footer
-
 > Made with ❤️ by **Bhavana** using **Streamlit** and **Machine Learning** 🚀

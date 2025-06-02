@@ -8,10 +8,8 @@ from pydub import AudioSegment
 import os
 import time
 
-# Set page configuration
 st.set_page_config(page_title="SpeakSafe", layout="wide")
 
-# Custom CSS
 st.markdown("""
     <style>
         .title-text {
@@ -56,7 +54,6 @@ with st.sidebar:
         }
     )
 
-# Page content
 if selected == "Home":
     st.markdown("<div class='title-text'>🛡️ Welcome to SpeakSafe</div>", unsafe_allow_html=True)
     st.write("""
@@ -139,7 +136,7 @@ elif selected == "Record Audio":
             else:
                 st.error(f"❌ Fake Audio Detected! Confidence: {confidence:.2f}")
 
-# Footer
+
 st.markdown("""
     <div class="footer">✨ Made by Bhavana using Streamlit and Machine Learning 💜</div>
 """, unsafe_allow_html=True)

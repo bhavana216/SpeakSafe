@@ -1,10 +1,6 @@
 # 🎙️ SpeakSafe: Deepfake Audio Detection Tool
 
-![SpeakSafe Banner](https://user-images.githubusercontent.com/0000000/0000000/banner-placeholder.png)
-
 SpeakSafe is an intelligent and interactive web app designed to detect deepfake audio using machine learning. Built with Python and Streamlit, it offers a clean, colorful UI and intuitive features that help determine whether an audio clip is genuine or fake.
-
----
 
 ## 🚀 Features
 
@@ -38,8 +34,6 @@ SpeakSafe/
 ├── model/
 │   └── audio_classifier.pkl  # Saved ML model
 ```
-
----
 
 ## 🤖 Tech Stack
 

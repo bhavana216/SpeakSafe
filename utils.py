@@ -12,7 +12,7 @@ def extract_features(file_path, sr=16000, n_mfcc=13):
         print(f"Error extracting features: {e}")
         return None
 
-# Load the trained model from the correct filename
+
 model = joblib.load("audio_classification_model.pkl")
 
 def model_predict(file_path):

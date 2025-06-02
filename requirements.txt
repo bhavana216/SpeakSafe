@@ -1,0 +1,10 @@
+streamlit
+numpy
+librosa
+scikit-learn
+joblib
+streamlit-webrtc
+pydub
+streamlit-option-menu
+
+
